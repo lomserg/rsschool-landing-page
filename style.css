@@ -202,6 +202,17 @@ body {
   width: 100px;
   height: 60px;
 }
+.logo-dark {
+  display: none;
+}
+
+body.dark-theme .logo-light {
+  display: none;
+}
+
+body.dark-theme .logo-dark {
+  display: block;
+}
 
 .header {
   display: flex;
